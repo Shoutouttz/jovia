@@ -1,0 +1,167 @@
+nav{
+    padding: 15px;
+}
+a{
+text-decoration: none;
+padding: 10px;
+color:#1252B3;
+
+}
+
+a:hover{
+background-color: red;
+color: cornsilk;
+}
+
+body{
+width: 60%;
+margin: auto;
+font-size: 20px;
+}
+.sss{
+width: 100%;
+}
+.hr{
+width: 10%;
+border-color: blue;
+float: left;
+}
+.exceed{
+width: 100%;
+}
+
+.hri{
+padding: 1px solid black;
+}
+.row{
+display: flex;
+
+align-items: center;
+justify-content: center ;
+}
+.column{
+flex: 1;
+padding: 20px;
+text-decoration:none;
+}
+.font{
+font-size: 20px;
+}
+.footer{
+background-color: #1F70A7;
+}
+.footer a{
+color: beige;
+}
+
+/******* Homepage Styles ****/
+.sss{
+    width: 100%;
+}
+
+.exceed{
+    width: 100%;
+    
+}
+.hr{
+    width: 10%;
+    float: left;
+    border-color:#1252B3;
+}
+.hrr{
+    width: 10%;
+    float: left;
+    border-color: red;
+}
+.us{
+    color: #1252B3;
+}
+.hrrr{
+    width:80%;
+    float: left;
+    border-color: gainsboro;
+}
+.rr{
+    background-color:#1252B3;
+    color: white;
+    width: 100%;
+    padding: 30px;
+}
+.aa{
+    color: red;
+}
+.ginv{
+    color: blue;
+}
+.border.border{
+    border-style: solid;
+    border-color: red;
+    border-width: 50%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+/********** Contact Page styles ********/
+.sss{
+    width: auto;
+}
+.contact{
+    width: 50%;
+    height: 50%;
+}
+.hr{
+    width: 10%;
+}
+.hr{
+    float: left;
+    border-color: blue;
+}
+.hrr{
+    width: 50%;
+    float: left;
+    border-color: red;
+}
+form{
+
+text-align: center ;
+padding: 20px;
+box-shadow: 1px 1px 20px 1px #888888;
+
+
+}
+input{
+border: 1px solid #1f70a7;
+font-size: 20px;
+padding: 10px;
+border-radius: 5px;
+width: 80%;
+margin: 10px;
+}
+.form{
+background-color: #1F70A7;
+}
+
+/************ Sign Up styles *******/
+.forgot{
+    text-align: right;
+}
+
+/********* forgot styles ********/
+.email{
+    color:#1F70A7;
+}
+.box{
+    text-align: center ;
+    box-shadow: 1px 1px 20px 1px #888888;
+    padding: 50px;
+}
+@media (max-width: 600px){
+    .row{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    nav a {
+        display: block;
+    }
+}
